@@ -6,11 +6,11 @@
 }
 
 body {
-  background-color: #0c2b21;
+  background-color: rgb(44 39 30);;
 }
 
 .left {
-  color: white;
+  color: rgb(255, 239, 11);
   font-size: 35px;
 }
 
@@ -93,6 +93,7 @@ a {
 
 .leftsection {
   font-size: 3.45rem;
+  color: white;
 
 }
 
@@ -107,7 +108,7 @@ a {
 }
 
 #degree {
-  color: blueviolet;
+  color: rgb(0, 0, 0)
 }
 
 .skills {
@@ -226,9 +227,10 @@ a {
 
 
 .more-about {
-  background-color: var(--bg-color);
+  background-color:#ed9e2f;
   padding: 5%;
   margin: 5%;
+
 }
 
 .more-about h2 {
@@ -247,17 +249,20 @@ a {
   font-size: 25px;
   margin-bottom: 1rem;
   text-align: justify;
+  color: white;
 }
 
 .resume1{
+  background-color: #0a2d44;
   padding: 15px;
   margin: 40px;
-  box-shadow: -0px -1px 45px -5px yellow;
+  box-shadow: -0px -1px 45px -5px rgb(255, 255, 21);
   border: none;
 }
+
 .resume1:hover{
-  background-color: rgb(53, 53, 49);
-  color: black;
+  background-color: rgb(39, 128, 139);
+  color: rgb(201, 255, 7);
 }
 
 #mes {
@@ -315,7 +320,7 @@ a {
 
 .skils h3{
   font-size: 40px;
-  color: coral;
+  color: rgb(158, 84, 255);
 }
 .submit-btn:hover {
   background-color: var(--primary-color);
